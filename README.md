@@ -18,6 +18,8 @@
     - Notifications
 - Create a Server Controller module
 
+At some point down the line (when getting close to a finished product) rewrite to TypeScript and start utilizing releases.
+
 ## Scripts to look into:
 - https://github.com/DemmyDemon/paradise-area
 - https://github.com/manueljlz/gcphone
