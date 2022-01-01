@@ -6,9 +6,11 @@ author 'VikingTheDev <support@vikingthe.dev>'
 description 'Example resource'
 version '1.0.0'
 
--- What to run
---client_scripts {
---    'client.lua',
---    'client_two.lua'
---}
-server_script 'index.js'
+
+client_scripts {
+   'clientStarter.js'
+}
+
+server_script {
+    'index.js'
+}

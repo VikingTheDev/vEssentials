@@ -15,8 +15,8 @@
 - Create a UI module
     - Regular and car UI
     - Exports for popup menus (Menu informing new players of rules etc.)
+    - Notifications
 - Create a Server Controller module
-
 
 ## Scripts to look into:
 - https://github.com/DemmyDemon/paradise-area
