@@ -1,7 +1,7 @@
 const config = {
     discord: {
-        botToken: "ODkyMzk1MzMyNzE2MDg1MzM5.YVMR6w.zaqW6r89bGRn7HGnR7k_xQCdpDI",
-        guildId: "739107232498843728"
+        botToken: "Changeme",
+        guildId: "Changeme"
     },
     modules: {
         discord: {
