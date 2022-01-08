@@ -8,7 +8,7 @@ version '1.0.0'
 
 
 client_scripts {
-   'clientStarter.js'
+   "modules/**/client/*.js"
 }
 
 server_script {
