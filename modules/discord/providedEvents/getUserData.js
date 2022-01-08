@@ -1,8 +1,10 @@
-const { config } = require("../../../config/config.js");
-const { guildId } = config.discord;
+const { config } = require("../../../config.js");
+let { guildId } = config.discord;
 
-module.exports = async (client, userId, cb) => {
+module.exports = async (client, userId, altGuildId, cb) => {
+    guildId = altGuildId ? altGuildId : guildId;
     const guild = client.guilds.cache.get(guildId);
+    
     // Check if the user's guild info is cached, if not fetch it.
     if(!guild.members.cache.get(userId)) await guild.members.fetch(userId);
 

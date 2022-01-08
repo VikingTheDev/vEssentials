@@ -1,7 +1,7 @@
 # vEssentials
 
 ## TODO
-- [ ] Create a discord module
+- [x] Create a discord module
 - [ ] Create a log system (Both console and discord logs)
 - [ ] Add the permission, queue, chatfilter and database modules
     - Add parts of the playermanager 
@@ -19,9 +19,8 @@
 - [ ] Create a Server Controller module
 - [ ] Implement a solution for potential "breakout" symbols in incoming arguments. Especially when they're originating from a client script. This is to prevent bad actors from executing code/commands on the server. (First and foremost for the logger, and any potential eval functions that will be used for i.e. the server controller.)
 
-At some point down the line (when getting close to a finished product) rewrite to TypeScript and start utilizing releases.
-
 ## Priority:
+1. Rewrite to TS.
 1. Permission system. Might add other options for perms than just discord.
 2. A "connection manager" that includes a queue, discord ban check and possibility for a whitelist or allowlist check.
 3. Finishing the logger.

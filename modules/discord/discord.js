@@ -3,7 +3,7 @@
 
 module.exports = () => {
     const { Client, Intents } = require("discord.js");
-    const { config } = require("../../config/config.js");
+    const { config } = require("../../config.js");
 
     const { botToken, guildId } = config.discord;
 
@@ -11,8 +11,10 @@ module.exports = () => {
         "ready"
     ], eventsProvided = [
         "getUserData", 
-        "getUserRoles"
+        "checkGuildBans"
     ];
+
+    //const guild = client.guilds.cache.get(guildId);
 
     const myIntents = new Intents();
     myIntents.add(Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILD_BANS);
