@@ -22,7 +22,6 @@ const startModule = (module) => {
     try {
         const func = require(`./modules/${module}/${module}.js`);
         if(typeof func === Function) func();
-        func();
         // if(config.modules[module].client_scripts.length > 0) {
         //     for(script of config.modules[module].client_scripts) {
         //         let x = RegisterResourceAsset("vEssentials", script);
