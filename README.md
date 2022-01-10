@@ -25,7 +25,7 @@
 2. A "connection manager" that includes a queue, discord ban check and possibility for a whitelist or allowlist check.
 3. Finishing the logger.
 4. Database
-5. Simple website to change the config in an easy and intutive manner (React, and a solution a local database).
+5. Simple website to change the config in an easy and intutive manner (React, and a solution for local database).
 
 ## Scripts to look into:
 - https://github.com/DemmyDemon/paradise-area
