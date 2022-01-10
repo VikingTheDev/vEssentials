@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/VikingTheDev/vEssentials#readme",
   "dependencies": {
-    "discord.js": "^13.4.0"
+    "discord.js": "^13.4.0",
+    "express": "^4.17.2",
+    "jsonfile": "^6.1.0",
+    "lowdb": "^3.0.0"
   }
 }
